@@ -1,0 +1,375 @@
+
+*** Running vivado
+    with args -log APUF.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source APUF.tcl
+
+
+****** Vivado v2019.2.1 (64-bit)
+  **** SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+  **** IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source APUF.tcl -notrace
+Command: synth_design -top APUF -part xc7s25csga324-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25csga324-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12756 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 818.738 ; gain = 236.270
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'APUF' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:13]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U1' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'MyMUX2' (1#1) [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:10]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U2' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:35]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U3' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:36]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U4' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:37]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U5' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:38]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U6' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:39]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U7' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:40]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U8' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:41]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U9' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:42]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U10' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:43]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U11' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:44]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U12' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:45]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U13' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:46]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U14' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:47]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U15' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:48]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U16' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:49]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U17' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:50]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U18' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:51]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U19' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:52]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U20' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:53]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U21' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:54]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U22' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:55]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U23' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:56]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U24' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:57]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U25' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:58]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U26' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:59]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U27' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:60]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U28' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:61]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U29' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:62]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U30' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:63]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U31' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:64]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U32' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:65]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U33' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:66]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U34' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:67]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U35' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:68]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U36' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:69]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U37' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:70]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U38' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:71]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U39' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:72]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U40' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:73]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U41' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:74]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U42' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:75]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U43' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:76]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U44' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:77]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U45' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:78]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U46' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:79]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U47' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:80]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U48' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:81]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U49' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:82]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U50' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:83]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U51' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:84]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U52' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:85]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U53' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:86]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U54' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:87]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U55' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:88]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U56' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:89]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U57' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:90]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U58' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:91]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U59' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:92]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U60' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:93]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U61' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:94]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U62' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:95]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U63' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:96]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U64' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:97]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U65' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:98]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U66' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:99]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U67' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:100]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U68' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:101]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U69' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:102]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U70' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:103]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U71' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:104]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U72' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:105]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U73' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:106]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U74' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:107]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U75' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:108]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U76' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:109]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U77' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:110]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U78' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:111]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U79' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:112]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U80' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:113]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U81' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:114]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U82' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:115]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U83' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:116]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U84' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:117]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U85' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:118]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U86' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:119]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U87' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:120]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U88' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:121]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U89' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:122]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U90' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:123]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U91' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:124]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U92' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:125]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U93' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:126]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U94' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:127]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U95' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:128]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U96' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:129]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U97' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:130]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U98' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:131]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U99' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:132]
+INFO: [Synth 8-3491] module 'MyMUX2' declared at 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd:3' bound to instance 'U100' of component 'MyMUX2' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:133]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'DDF' [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/DDF.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'DDF' (2#1) [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/DDF.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'APUF' (3#1) [C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 891.152 ; gain = 308.684
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 891.152 ; gain = 308.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 891.152 ; gain = 308.684
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 891.152 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/94201/Desktop/Hardware Security/project/SPARTAN-7/Arty-S7-25-Rev-E-Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'Clk_OBUF'. [C:/Users/94201/Desktop/Hardware Security/project/SPARTAN-7/Arty-S7-25-Rev-E-Master.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/94201/Desktop/Hardware Security/project/SPARTAN-7/Arty-S7-25-Rev-E-Master.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/94201/Desktop/Hardware Security/project/SPARTAN-7/Arty-S7-25-Rev-E-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/94201/Desktop/Hardware Security/project/SPARTAN-7/Arty-S7-25-Rev-E-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/APUF_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/APUF_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 982.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 982.879 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25csga324-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DDF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 982.879 ; gain = 400.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |FDRE |     1|
+|3     |IBUF |     2|
+|4     |OBUF |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     7|
+|2     |  U129   |DDF    |     1|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 985.086 ; gain = 310.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 985.086 ; gain = 402.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 985.086 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 996.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+117 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 996.270 ; gain = 690.996
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 996.270 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.runs/synth_2/APUF.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file APUF_utilization_synth.rpt -pb APUF_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 16:11:37 2020...

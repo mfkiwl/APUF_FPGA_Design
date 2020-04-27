@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Apr 10 14:48:25 2020
+# Process ID: 21336
+# Current directory: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/xsim.dir/APUF_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/xsim.dir/APUF_behav/webtalk/xsim_webtalk.tcl -notrace

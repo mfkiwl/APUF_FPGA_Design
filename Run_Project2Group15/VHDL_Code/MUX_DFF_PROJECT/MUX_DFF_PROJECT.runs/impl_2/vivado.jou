@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Apr 15 16:14:12 2020
+# Process ID: 26264
+# Current directory: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.runs/impl_2
+# Command line: vivado.exe -log APUF.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source APUF.tcl -notrace
+# Log file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.runs/impl_2/APUF.vdi
+# Journal file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source APUF.tcl -notrace

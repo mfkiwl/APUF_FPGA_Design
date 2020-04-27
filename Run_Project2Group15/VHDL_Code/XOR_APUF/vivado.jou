@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Apr 27 15:01:23 2020
+# Process ID: 16336
+# Current directory: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1820 C:\Users\94201\Desktop\Project2Group15\VHDL_Code\XOR_APUF\XOR_APUF.xpr
+# Log file: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF/vivado.log
+# Journal file: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF/XOR_APUF.xpr
+update_compile_order -fileset sources_1

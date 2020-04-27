@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MUX_DFF_PROJECT.srcs/sources_1/new/APUF.vhd" \
+"../../../../MUX_DFF_PROJECT.srcs/sources_1/new/DDF.vhd" \
+"../../../../MUX_DFF_PROJECT.srcs/sources_1/new/MyMUX2.vhd" \
+"../../../../MUX_DFF_PROJECT.srcs/sim_1/new/APUF_tb.vhd" \
+
+# Do not sort compile order
+nosort

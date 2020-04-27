@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Apr 27 15:01:23 2020
+# Process ID: 16336
+# Current directory: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1820 C:\Users\94201\Desktop\Project2Group15\VHDL_Code\XOR_APUF\XOR_APUF.xpr
+# Log file: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF/vivado.log
+# Journal file: C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/94201/Desktop/Project2Group15/VHDL_Code/XOR_APUF/XOR_APUF.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/94201/XOR_APUF' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 776.789 ; gain = 128.223
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 27 15:01:57 2020...

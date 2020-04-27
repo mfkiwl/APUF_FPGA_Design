@@ -1,0 +1,7 @@
+Running: xsim.dir/APUF_behav/xsimk.exe -simmode gui -wdb APUF_behav.wdb -simrunnum 0 -socket 57150
+Design successfully loaded
+Design Loading Memory Usage: 5320 KB (Peak: 5320 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5932 KB (Peak: 5932 KB)
+Simulation CPU Usage: 46 ms

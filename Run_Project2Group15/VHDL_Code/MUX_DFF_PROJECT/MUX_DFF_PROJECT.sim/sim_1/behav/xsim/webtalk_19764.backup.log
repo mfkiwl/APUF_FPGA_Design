@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Apr 10 14:46:44 2020
+# Process ID: 19764
+# Current directory: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/xsim.dir/APUF_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/xsim.dir/APUF_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/94201/MUX_DFF_PROJECT/MUX_DFF_PROJECT.sim/sim_1/behav/xsim/xsim.dir/APUF_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Apr 10 14:46:46 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 10 14:46:46 2020...
